@@ -2,7 +2,7 @@
   "name": "e-commerce-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mo2002222.github.io/e-commerce-site/",
+  "homepage": "https://mo2002222.github.io/e-commerce-site-/",
   "description": "A simple e-commerce site built with React",
   "dependencies": {
     "bootstrap": "^5.3.8",

@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start --openssl-legacy-provider",
-    "build": "react-scripts build",
+    "build": "vite build && copy dist\\index.html dist\\404.html", 
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

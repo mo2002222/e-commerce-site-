@@ -18,7 +18,7 @@ function App() {
       <div className={theme? 'h-fit bg-slate-900' : 'h-fit'}>
       <Navbar />
       <Switch>
-        <Route exact path="/" component={ProductList} />
+        <Route exact path="/e-commerce-site-/" component={ProductList} />
         <Route path="/details" component={Details} />
         <Route path="/cart" component={Cart} />
         <Route component={Default} />

@@ -51,7 +51,7 @@ class Navbar extends Component {
         {isMobile ? (
           // Mobile View
           <MobileNavWrapper className="navbar nav-bar-expand-sm bg-slate-800 px-sm-5 w-100">
-            <Link to="/" className="w-50">
+            <Link to="/e-commerce-site-/" className="w-50">
               <img src={logo} alt="store" className="navbar-brand" />
             </Link>
             <div className="text-white w-50 menu" onClick={this.handleMenu}>
@@ -59,7 +59,7 @@ class Navbar extends Component {
             </div>
             {menuOpen && (
               <div className=" resmenu w-100 ">
-                <NavLink to="/" className={({ isActive }) => isActive ? "text-primary" : "text-white hover"}>
+                <NavLink to="/e-commerce-site-/" className={({ isActive }) => isActive ? "text-primary" : "text-white hover"}>
                   Products
                 </NavLink>
                 <ProductConsumer>
@@ -87,12 +87,12 @@ class Navbar extends Component {
         ) : (
           // Desktop View
           <DesktopNavWrapper className="navbar nav-bar-expand-sm bg-slate-800 px-sm-5">
-            <Link to="/">
+            <Link to="/e-commerce-site-/">
               <img src={logo} alt="store" className="navbar-brand" />
             </Link>
             <ul className="navbar-nav align-items-center">
               <li className="nav-item ml-5">
-                <Link to="/" className="nav-link">
+                <Link to="/e-commerce-site-/" className="nav-link">
                   Products
                 </Link>
               </li>
